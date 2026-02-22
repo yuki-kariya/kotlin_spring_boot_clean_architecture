@@ -1,0 +1,7 @@
+# syntax=docker/dockerfile:1.4
+
+FROM gradle:8.10.2-jdk17
+WORKDIR /workspace
+COPY . .
+RUN chmod +x gradlew
+CMD ["./gradlew", "bootRun", "--continuous", "--no-daemon"]

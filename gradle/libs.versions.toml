@@ -1,0 +1,5 @@
+[versions]
+mysql-connector-j = "8.4.0"
+
+[libraries]
+mysql-connector-j = { module = "com.mysql:mysql-connector-j", version.ref = "mysql-connector-j" }

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: kotlin_spring_boot_clean_architecture
+  datasource:
+    url: ${SPRING_DATASOURCE_URL}
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+  flyway:
+    enabled: true
